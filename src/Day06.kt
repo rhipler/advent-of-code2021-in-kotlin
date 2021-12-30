@@ -10,7 +10,7 @@ fun main() {
                 numbers[index]=6
                 numbers.add(8)
             } else {
-                numbers[index]--;
+                numbers[index]--
             }
         }
     }
@@ -20,7 +20,7 @@ fun main() {
         val numReproduce = numbers[0]
 
         for (i in 0..7) {
-            numbers[i] = numbers[i+1];
+            numbers[i] = numbers[i+1]
         }
         numbers[8] = numReproduce
         numbers[6] += numReproduce

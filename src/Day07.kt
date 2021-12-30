@@ -12,7 +12,7 @@ fun main() {
         var minimum = Integer.MAX_VALUE
         for (alignto in 0..max) {
 
-            var cost =0;
+            var cost = 0
             for (num in numbers) {
                 cost += abs(num - alignto)
             }
@@ -33,7 +33,7 @@ fun main() {
         var minimum = Integer.MAX_VALUE
         for (alignto in 0..max) {
 
-            var cost =0;
+            var cost = 0
             for (num in numbers) {
                 val len = abs(num - alignto)
                 for (i in 1..len) {

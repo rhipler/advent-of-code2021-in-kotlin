@@ -110,6 +110,6 @@ fun main() {
 
 
     val input = readInput("Day09")
-    println("Solution part1: " + part1(input))  //548
-    println("Solution part2: " + part2(input)) // 786048
+    println("Solution part1: " + part1(input))
+    println("Solution part2: " + part2(input))
 }
